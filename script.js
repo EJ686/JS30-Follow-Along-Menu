@@ -9,6 +9,7 @@ function handleEnter() {
 }
 
 function handleLeave() {
+    this.classList.remove('trigger-enter', 'trigger-enter-active');
     console.log('Leave');
 
 }
